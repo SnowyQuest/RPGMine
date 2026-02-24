@@ -1,0 +1,3 @@
+messages:
+  mine-world-set: '%prefix% You have set the mineworld to %world%.'
+  mine-delay-set: '%prefix% You have set the mining delay to %delay% seconds.'    

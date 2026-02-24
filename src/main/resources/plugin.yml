@@ -4,4 +4,8 @@ description: ${description}
 author: ${author}
 main: ${mainClass}
 api-version: 1.13
-depend: ["PlaceholderAPI"]
+depend: ["CrownCore"]
+
+commands:
+  mine:
+    permission: command.mine

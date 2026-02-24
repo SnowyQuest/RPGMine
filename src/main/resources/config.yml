@@ -1,0 +1,34 @@
+mine-world: world
+
+# in seconds
+block-refill-delay: 10
+
+blocks:
+  STONE:
+    chance: 50
+  GRANITE:
+    chance: 5
+  DIORITE:
+    chance: 5
+  ANDESITE:
+    chance: 5
+  CALCITE:
+    chance: 5
+  COAL_ORE:
+    chance: 6
+  IRON_ORE:
+    chance: 2
+  COPPER_ORE:
+    chance: 2
+  REDSTONE_ORE:
+    chance: 1
+  GOALD_ORE:
+    chance: 1.5
+  LAPIS_ORE:
+    chance: 0.5
+  EMERALD_ORE:
+    chance: 0.4
+  DIAMOND_ORE:
+    chance: 0.4
+  ANCIENT_DEBRIS:
+    chance: 0.2
