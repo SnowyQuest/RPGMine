@@ -28,6 +28,7 @@ public final class RPGMinePlugin extends JavaPlugin implements Listener {
         this.pluginConfig = new PluginConfig(this);
         this.messanger = this.pluginConfig.getMessanger();
         this.blockRefillManager = new BlockRefillManager(pluginConfig);
+        this.getServer().getPluginManager().registerEvents(this, this);
     }
 
     @EventHandler
